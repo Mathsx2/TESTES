@@ -115,93 +115,26 @@ body {
     outline: none;
   }
   
-  .expand {
-    width: 15vw;
-  }
+.rate h1{
+  margin-left: 15vw;
+}
   
-  .slider-container {
-    margin-top: 20px;
-    position: relative;
-    width: 100%;
-    height: 30vw;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .slider {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .card {
-    display: flex;
-    align-items: center;
-    margin-top: 5vw;
-    position: relative;
-    margin-right: 20vw;
-    margin-left: 15vw;
-    box-shadow: 6px 6px 6px 6px rgb(65, 44, 161);
-  }
-  
-  .card img {
-    max-width: 45%;
-    max-height: 100%;
-    object-fit: contain;
-    margin-right: 15vw;
-    box-shadow: 2px 2px 4px 4px rgb(65, 44, 161);
-  }
-  
-  .card-content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
-    text-align: right;
-  }
-  
-  .slider-navigation {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #717171;
-  }
-  
-  h2 {
-    color: white;
-    text-align: left;
-    font-size: 1.5vw;
-  }
-  
-  p {
-    color: white;
-    text-align: left;
-    font-size: 0.8vw;
-  }
-  
-  h3 {
-    color: white;
-    text-align: left;
-    font-size: 1vw;
-  }
-  
+.plays {
+  background: url(https://i.ibb.co/nsbzqd6/image-1.png);
+  color: white;
+}
+
+.plays h3 {
+  text-align: center;
+}
+
+.plays2{
+  background: url(https://i.ibb.co/h9W7rYr/image-2.png);
+  color: white;
+}
+
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
