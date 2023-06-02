@@ -118,23 +118,37 @@ body {
 .rate h1{
   margin-left: 15vw;
 }
-  
+
+.rate p{
+padding: -50vh;
+}
+
 .plays {
   background: url(https://i.ibb.co/nsbzqd6/image-1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
   color: white;
+  width: 70vh;
 }
 
 .plays h3 {
+  text-align: center;
+} 
+
+.plays2 h3 {
   text-align: center;
 }
 
 .plays2{
   background: url(https://i.ibb.co/h9W7rYr/image-2.png);
   color: white;
+  height: 45vh;
+  width: 70vh;
 }
 
 .rating{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style: none;
 }
